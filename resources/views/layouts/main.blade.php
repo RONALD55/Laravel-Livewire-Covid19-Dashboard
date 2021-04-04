@@ -10,10 +10,10 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
     <!-- Styles -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/images/logo.png')}}" />
-    <link href="{{asset('/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('/assets/css/app.min.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('/assets/css/app.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/logo.png" />
+    <link href="/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/app.css" rel="stylesheet" type="text/css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
     @livewireStyles
