@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08679868-b5ab-42e4-b8aa-0d9876cca314" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/nicole/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/nicole/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/nicole/other.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/nicole/other.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/support.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/support.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +192,7 @@
       <workItem from="1617297087344" duration="21849000" />
       <workItem from="1617381111576" duration="3528000" />
       <workItem from="1617438808136" duration="44795000" />
-      <workItem from="1617565639611" duration="4915000" />
+      <workItem from="1617565639611" duration="5116000" />
     </task>
     <servers />
   </component>
