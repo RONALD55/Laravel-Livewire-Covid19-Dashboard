@@ -35,7 +35,7 @@
                                 <li class="nav-item">
                                     <a href="#billing-information" data-toggle="tab" aria-expanded="false"
                                        class="nav-link rounded-0">
-                                        <i class="mdi mdi-virus-outline font-18"></i>
+                                        <i class="mdi mdi-bacteria font-18"></i>
                                         <span class="d-none d-lg-block">Covid 19 Prevention</span>
                                     </a>
                                 </li>
