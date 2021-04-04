@@ -32,7 +32,7 @@
 
         <!-- Footer -->
         <footer id="footer">
-            <span class="copyright">&copy; Nicole <a href="#">Covid 19 App</a>.</span>
+            <span class="copyright">&copy; Nicole <a href="#">Covid-19 App</a>.</span>
         </footer>
 
     </div>
