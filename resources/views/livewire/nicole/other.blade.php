@@ -28,20 +28,20 @@
                             <ul class="nav nav-pills bg-nav-pills nav-justified mb-3">
                                 <li class="nav-item">
                                     <a href="#payment-information" data-toggle="tab" aria-expanded="false" class="nav-link rounded-0 active">
-                                        <i class="mdi mdi-cash-multiple font-18"></i>
+                                        <i class="mdi mdi-hospital-box-outline font-18"></i>
                                         <span class="d-none d-lg-block">Covid 19 Symptoms</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#billing-information" data-toggle="tab" aria-expanded="false"
                                        class="nav-link rounded-0">
-                                        <i class="mdi mdi-account-circle font-18"></i>
+                                        <i class="mdi mdi-virus-outline font-18"></i>
                                         <span class="d-none d-lg-block">Covid 19 Prevention</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#shipping-information" data-toggle="tab" aria-expanded="true" class="nav-link rounded-0">
-                                        <i class="mdi mdi-truck-fast font-18"></i>
+                                        <i class="mdi mdi-thermometer-lines font-18"></i>
                                         <span class="d-none d-lg-block">Covid 19 Vaccination</span>
                                     </a>
                                 </li>

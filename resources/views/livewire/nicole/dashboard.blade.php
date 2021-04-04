@@ -29,22 +29,7 @@
                 <div class="page-title-box">
                     <div class="page-title-right">
                         <form class="form-inline">
-
-                            <div class="form-group mr-2">
-                                <select wire:model="period" class="form-control @error('nationality') is-invalid @enderror mb-2" disabled>
-                                    <option value="daily">Period</option>
-                                    <option value="daily">Daily</option>
-                                    <option value="weekly">Weekly</option>
-                                    <option value="bi-weekly">Bi-Weekly</option>
-                                    <option value="monthly">Monthly</option>
-                                    <option value="yearly">Yearly</option>
-                                    <option value="all">All</option>
-                                </select>
-                            </div>
-
-
-
-                            <div class="form-group ml-2 mr-0">
+                            <div class="form-group ml-auto mr-0">
                                 <select  wire:model.debounce.300ms="country" class="form-control @error('country') is-invalid @enderror mb-2" >
                                     <option value="Afghanistan">Afghanistan</option>
                                     <option value="Åland Islands">Åland Islands</option>
@@ -299,13 +284,15 @@
                             <div wire:loading>
                                 ....<span class="badge bg-danger text-white">Loading</span>
                             </div>
-                            <div>
-                                <span class="help-block"><small>choose search period and country : Note everything is response just select range and data should populate automatically.</small></span>
-                            </div>
+
+
                         </form>
 
                     </div>
                     <h4 class="page-title">Covid 19 Dashboard</h4>
+                    <div>
+                        <span class="help-block mr-0"><small>choose search period and country : Note everything is response just select range and data should populate automatically.</small></span>
+                    </div>
 
 
                 </div>

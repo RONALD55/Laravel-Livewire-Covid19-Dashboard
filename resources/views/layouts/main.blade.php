@@ -65,7 +65,7 @@
                     </div>
 
                     <!-- item-->
-                    <a href="/about" target="_blank"  class="dropdown-item notify-item">
+                    <a href="/other_details" target="_blank"  class="dropdown-item notify-item">
                         <i class="mdi mdi-account-circle mr-1"></i>
                         <span>About</span>
                     </a>
@@ -82,15 +82,6 @@
                         <span>Support</span>
                     </a>
 
-                    <a class="dropdown-item notify-item" href="{{ route('logout') }}"
-                       onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-                        <i class="mdi mdi-logout mr-1"></i>
-                        <span>Logout</span>
-                    </a>
-
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                        @csrf
-                    </form>
 
                 </div>
             </li>
