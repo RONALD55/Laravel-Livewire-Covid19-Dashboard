@@ -147,7 +147,7 @@ class BotManController extends Controller
 
                 else if($response==4){
                     $this->say("Option 4 Selected<br><br>
-                        <a href='http://www.mohcc.gov.zw/index.php?option=com_phocadownload&view=category&download=514:approved-common-questions-on-covid-19-vaccines-and-vaccination-in-zim-pdf&id=18:operational-support-and-logistics&Itemid=660' target='_blank' download='http://www.mohcc.gov.zw/index.php?option=com_phocadownload&view=category&download=514:approved-common-questions-on-covid-19-vaccines-and-vaccination-in-zim-pdf&id=18:operational-support-and-logistics&Itemid=660'>Click here to download the document</a>
+                        <a class='btn btn-outline-warning' role='button' href='http://www.mohcc.gov.zw/index.php?option=com_phocadownload&view=category&download=514:approved-common-questions-on-covid-19-vaccines-and-vaccination-in-zim-pdf&id=18:operational-support-and-logistics&Itemid=660' target='_blank' download='http://www.mohcc.gov.zw/index.php?option=com_phocadownload&view=category&download=514:approved-common-questions-on-covid-19-vaccines-and-vaccination-in-zim-pdf&id=18:operational-support-and-logistics&Itemid=660'>Click here to download the document</a>
                       <h4>Press '#' to quit or 'hello' to start again</h4>
                         <h4>Press 'menu' to view options</h4>");
                 }else{
