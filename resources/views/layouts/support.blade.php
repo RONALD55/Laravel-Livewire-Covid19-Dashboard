@@ -23,7 +23,7 @@
 
                     <li><a href="https://twitter.com/mohcczimbabwe" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
                     <li><a href="https://m.facebook.com/Ministry-of-Health-and-Child-Care-148565931913609/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                    <li><a href="https://wa.me/26373210639" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+                    <li><a href="https://wa.me/263772712489" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
                     <li><a href="https://www.instagram.com/who/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
                     <li><a href="#"   class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
                 </ul>
