@@ -267,9 +267,12 @@
 </body>
 <script>
     var botmanWidget = {
-        aboutText: 'ssdsd',
-        introMessage: "✋ Hi! I'm Nicole from <br>" +
-            "Covid-19 TaskForce. Press 'Hello' to start a conversation<br> "
+	title:'Nicole Covid 19 ChatBot',
+    introMessage: "✋ Hi! I'm Nicole from <br>" +"Covid-19 TaskForce. Press 'Hello' to start a conversation<br> ",
+    mainColor:'#1c4b27',
+    aboutText:'',
+    bubbleBackground:'#1c4b27',
+    headerTextColor: '#fff',
     };
 </script>
 
