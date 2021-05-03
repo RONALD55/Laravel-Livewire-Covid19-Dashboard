@@ -70,7 +70,7 @@ class BotManController extends Controller
 
     public function menu($botman){
         $botman->ask('<h4>Menu Options</h4>
-                       1. to check covid-19 symptoms<br>
+                       1. To View Covid-19 symptoms<br>
                        2. Covid-19 Centers in Zimbabwe<br>
                        3. Covid-19 Prevention Tips<br>
                        4. Covid-19 Vaccination Program In Zimbabwe<br>
@@ -79,47 +79,36 @@ class BotManController extends Controller
 
             $response = $answer->getText();
                 if($response==1){
+					$this->say('
+                            <h4>Covid-19 Symptoms</h4>
+                            Below are the symptoms for Covid 19<br>
+                            1.Fever<br>
+							2.Cough <br>
+							3.Tiredness<br>
+                             <br>Early symptoms of COVID-19 may include a loss of taste or smell<br>
+							 <br>Other symptoms can include<br>
+                            4.Shortness of breath<br>
+							5.Difficulty in Breathing<br>
+							6.Muscle aches <br>
+							7.Chills,<br>
+							8.Sore throat and Runny nose <br>
+							9.Headache<br>
+							10. Chest pain<br>
+							11.Pink eye (conjunctivitis)<br>
+							12.Nausea,Vomiting,Diarrhea,Rash<br>
+                           
+                            <br>
+                            <h4>Press "#" to quit or "hello" to start again</h4>
+                            <h4>Press "menu" to view options</h4>
+                            ');
 
-
-                    $questions=[
-                        'Have you been in contact with a covid19 positive person',
-                        'Do you have Fever or chills',
-                        'Do you have a dry cough',
-                        'Do you have a sore throat',
-                        'Do you have shortness of breath or difficulty breathing',
-                        'Do you have a loss of taste or smell',
-                        'Do you have muscle or body aches',
-                        'Do you have fatigue',
-                        'Do you have headache',
-                        'Do you have congestion or runny nose',
-                        'Do you have nausea or are you vomiting',
-                        'Do you have diarrhea',
-                    ];
-
-
-                    for($i=0;$i<12;$i++){
-                        $question_no = 'question '.$i;
-                        $question= Question::create($questions[$i])
-                            ->fallback('Unable to get response for this question')
-                            ->callbackId($question_no)
-                            ->addButtons([
-                                Button::create('yes')->value('yes'),
-                                Button::create('no')->value('no'),
-                            ]);
-
-                        $this->ask($question, function (Answer $answer) {
-                            // Detect if button was clicked:
-                            if ($answer->isInteractiveMessageReply()) {
-                                $selectedValue = $answer->getValue(); // will be either 'yes' or 'no'
-                                $selectedText = $answer->getText(); // will be either 'Of course' or 'Hell no!'
-                            }
-                        });
-
-
-                    }
+                    
                 }
                 else if($response==2){
-                    $this->say('Case 2 Selected');
+                    $this->say("Option 2 Selected<br><br>
+                        <a class='btn btn-outline-warning' role='button' href='https://www.cimas.co.zw/storage/app/media/downloads/CIMAS_MEDLABS_COVID_TESTING_CENTRES.pdf' target='_blank' download='https://www.cimas.co.zw/storage/app/media/downloads/CIMAS_MEDLABS_COVID_TESTING_CENTRES.pdf'>Click here to download the document</a>
+						<h4>Press '#' to quit or 'hello' to start again</h4>
+                        <h4>Press 'menu' to view options</h4>");
                 }
 
                 else if($response==3){
